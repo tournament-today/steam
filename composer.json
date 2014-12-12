@@ -1,0 +1,22 @@
+{
+    "name": "syn/steam",
+    "description": "",
+    "authors": [
+        {
+            "name": "Daniël `Luceos` Klabbers",
+            "email": "daniel+syn@klabbers.email"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Syn\\Steam": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
